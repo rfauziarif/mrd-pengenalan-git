@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { 
+            margin: 0px;
+        }
+        
+ 
+
+
+        .header { 
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin-top:10px;
+        }
+        .photo-pribadi { 
+            border-radius: 240px;
+            width: 240px;
+       
+        }
+
+        .nama-lengkap, .photo-pribadi, .kata-kata, .bintang {
+            margin: 0px;
+            margin-top: 10px;
+        }
+        .kata-kata { 
+           margin-bottom : 10px;  
+        }
+        
+        .bintang { 
+            color: blue; 
+        }
+
+
+        /* disini untuk konten */
+     
+        /* Tentang Saya  */
+        .kesatu { 
+            background-color: #BBF7D0;
+            margin: 0px;
+        }
+        .tentang-saya { 
+            display: flex;
+            flex-direction: row;
+            text-align: justify;
+        
+        }
+
+        #tentangsaya { 
+            display: flex;
+            align-items: center;
+            padding: 50px;
+        }
+
+        .deskripsi-pribadi { 
+            padding: 10px;
+        }
+        /* Selesai */
+
+        /* Pengalaman */
+
+    .pengalaman { 
+        display: flex;
+        flex-direction: row;
+        background-color: #BBF7D0;
+        margin-top: 10px; 
+      
+    }
+
+    #pengalamansaya { 
+        display: flex;
+        padding: 28px;
+        align-items: center;
+    }
+
+    .deskripsi-pengalaman { 
+        display: flex;
+        flex-direction: column;
+        padding:10px;
+    }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+            <img class="photo-pribadi" src="img/IMG20211102085728.jpg" alt="">
+            <h1 class="nama-lengkap"> MOH RIZKI FAUZY ARIF</h1>
+            <p class="kata-kata"> Terus Belajar dan Mengamalkannya </p>
+        <div class="icon">
+            <a class="aa" href="www.linkedin.com/in/rfauziarif"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="currentColor" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248c-.015-.709-.52-1.248-1.342-1.248c-.822 0-1.359.54-1.359 1.248c0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586c.173-.431.568-.878 1.232-.878c.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252c-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path></svg></a>
+            <a class="aa" href="www.github.com/rfauziarif"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59c.4.07.55-.17.55-.38c0-.19-.01-.82-.01-1.49c-2.01.37-2.53-.49-2.69-.94c-.09-.23-.48-.94-.82-1.13c-.28-.15-.68-.52-.01-.53c.63-.01 1.08.58 1.23.82c.72 1.21 1.87.87 2.33.66c.07-.52.28-.87.51-1.07c-1.78-.2-3.64-.89-3.64-3.95c0-.87.31-1.59.82-2.15c-.08-.2-.36-1.02.08-2.12c0 0 .67-.21 2.2.82c.64-.18 1.32-.27 2-.27c.68 0 1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82c.44 1.1.16 1.92.08 2.12c.51.56.82 1.27.82 2.15c0 3.07-1.87 3.75-3.65 3.95c.29.25.54.73.54 1.48c0 1.07-.01 1.93-.01 2.2c0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+            <a class="aa" href="www.intagram.com/r_fauziarif"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0C5.829 0 5.556.01 4.703.048C3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7C.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297c.04.852.174 1.433.372 1.942c.205.526.478.972.923 1.417c.444.445.89.719 1.416.923c.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417c.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046c.78.035 1.204.166 1.486.275c.373.145.64.319.92.599c.28.28.453.546.598.92c.11.281.24.705.275 1.485c.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598c-.28.11-.704.24-1.485.276c-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598a2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485c-.038-.843-.046-1.096-.046-3.233c0-2.136.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486c.145-.373.319-.64.599-.92c.28-.28.546-.453.92-.598c.282-.11.705-.24 1.485-.276c.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92a.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217a4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334a2.667 2.667 0 0 1 0-5.334z"></path></svg></a>
+            <a class="aa" href="https://t.me/r_fauziarif"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="currentColor" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01c-.378.15-.577.298-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294c.26.006.549-.1.868-.32c2.179-1.471 3.304-2.214 3.374-2.23c.05-.012.12-.026.166.016c.047.041.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817c-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088c.327.216.589.393.85.571c.284.194.568.387.936.629c.093.06.183.125.27.187c.331.236.63.448.997.414c.214-.02.435-.22.547-.82c.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315a.337.337 0 0 0-.114-.217a.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"></path></svg></a>
+            <a class="aa" href="https://wa.me/6281380575366"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="currentColor" d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144l-2.494.654l.666-2.433l-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931a6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646c-.182-.065-.315-.099-.445.099c-.133.197-.513.646-.627.775c-.114.133-.232.148-.43.05c-.197-.1-.836-.308-1.592-.985c-.59-.525-.985-1.175-1.103-1.372c-.114-.198-.011-.304.088-.403c.087-.088.197-.232.296-.346c.1-.114.133-.198.198-.33c.065-.134.034-.248-.015-.347c-.05-.099-.445-1.076-.612-1.47c-.16-.389-.323-.335-.445-.34c-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654c0 .977.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992c.47.205.84.326 1.129.418c.475.152.904.129 1.246.08c.38-.058 1.171-.48 1.338-.943c.164-.464.164-.86.114-.943c-.049-.084-.182-.133-.38-.232z"></path></svg></a>
+            <a class="aa" href="mailto:muhammadrizkifauziarif@rfauziarif.com"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="currentColor" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414L.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path></svg></a>
+        </div>
+            <section class="bintang">****************************************************************</section> 
+    </div>
+
+    <div class="konten">
+      <section class="kesatu">
+        <div class="tentang-saya"> 
+            <h2 id="tentangsaya">Tentang Saya </h2>
+                <div class="deskripsi-pribadi">
+                    <p>Nama Lengkap Muhammad Rizki Fauzy Arif dengan nama panggilan Fauzy namun teman-teman dikampung halaman memanggil saya Rizki.
+                        Saya Lahir di Bandung, 26 Maret 1998 anak ke 3 dari 4 bersaudara. Tempat tinggal saya di Garut tepatnya 
+                        di Cisompet Garut Selatan. Waktu kecil saya habiskan di kampung halaman di Cisompet Kp. Nagrak dari SD sampai SMP, Setelah itu saya 
+                        Pergi merantau karena pendidikan saya pindah ke SMK Negeri 1 Garut yang berda di Garut. saya aktif disekolah di berbagai organisasi dan 
+                        beberapa beladiri sebab menurut saya seorang perantau harus membekali diri sedikitnya 1 beladiri agar dapat membela diri apabila ada suatu 
+                        hal yang tidak dapat diinginkan. </p>
+                    <p>Setelah selesai dari SMA tahun 2016 saya langsung bekerja di SMK Gunung Nagara sebagai Operator, Staff IT dan TU serta melatih beladiri pencak silat di berbagai sekolah. Dengan memegang beberapa pekerjaan, membuat saya sangat sibuk dan terkadang sampai lupa waktu, namun 
+                        saya tetap memprioritaskan waktu belajar untuk meningkatkan skill yang saya miliki agar tidak lupa dengan harapan skill-skill ini dapat 
+                        membantu saya dalam mempermudah pekerjaan saya ketika saya bekerja disuatu perusahaan.</p>
+                </div>
+      </section>
+        </div>
+
+        <div class="pengalaman"> 
+            <h2 id="pengalamansaya">Pengalaman  </h2>
+              <section> 
+                <div class="deskripsi-pengalaman">
+                    <h3>Pekerjaan 1</h3>
+                    <h3> SMK Gunung Nagara</h3>
+                    <p><i>2017 - 2018</i></p> 
+                    
+                    <div class="deskripsi-pekerjaan1">
+                        <p>Saya bekerja sebagai Staf Tata usaha, Staff IT dan Guru Pencaksilat.</p>
+                        <ol>Staff Tata Usaha 
+                            <li>Membuat surat menyurat </li>
+                            <li>Identifikasi Barang </li>
+                            <li>Menyusun maupun membuat proposal dan laporan </li>
+                            <li>Mempersiapkan ruang rapat</li>
+                            <li>dll</li>
+                        </ol> 
+                    </div>
+
+                </div>
+<hr>
+                <div class="deskripsi-pengalaman">
+                    <h3>Pekerjaan 2</h3>
+                    <h3>Magang  CV Lingga Mekar</h3>
+                    <p><i>4 Bulan</i></p> 
+                    
+                    <div class="deskripsi-pekerjaan1">
+                        <p>Saya Magang sebagai seorang Instaler Router dan Admin</p>
+                        <ol><p>Saya Magang sebagai seorang Instaler Router dan Admin</p>  
+                            <li>Membuat Laporan hasil Instalasi Router </li>
+                            <li>Instalasi Router Ke tiap (Kecamatan) </li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="pengalaman"> 
+            <h2 id="pengalamansaya">Pendidikan  </h2>
+              <section> 
+                <div class="deskripsi-pengalaman">
+                    <h3>SMK Gunung Nagara </h3>
+                    <h3> Teknik Komputer Dan Jaringan</h3>
+                    <p><i>2013 - 2016</i></p> 
+                </div>
+<hr> 
+                <div class="deskripsi-pengalaman">
+                    <h3>Azhariyah Intitute</h3>
+                    <h3>D3 Ulumul Quran</h3>
+                    <p><i>2018 - 2021 </i></p> 
+                </div>
+<hr>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+</html>

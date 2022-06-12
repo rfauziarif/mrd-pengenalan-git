@@ -1,0 +1,58 @@
+body {
+    margin:0px;
+    background-color:aliceblue;
+}
+/* head  */
+
+.head { 
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+}
+h1 {
+    margin-bottom:0px;
+}
+.image { 
+
+    width: 240px;
+    border-radius: 240px;
+    margin-top: 10px;
+    }
+a {
+    margin: 0px 10px;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: blue;
+
+}
+.bintang {
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+/* Akhir CSS Head  */
+
+/* 
+tentang saya  */
+.warna { 
+    background-color: #BBF7D0;
+    margin-bottom: 10px;
+
+}
+
+.judulpokok { 
+ display:
+ flex-basis:30px;
+ align-self:center;
+ 
+}
+
+table,th,td{ 
+    border: 1px solid;
+    
+}
+
